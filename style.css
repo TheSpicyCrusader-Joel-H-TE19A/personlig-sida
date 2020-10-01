@@ -3,10 +3,35 @@ title {
   line-height: 22;
 }
 
+header {
+  font-family: "Londrina Solid", cursive;
+  padding: 30px;
+  background-color: #00f7ff;
+  text-align: center;
+}
+
+footer {
+  font-family: "Londrina Solid", cursive;
+  padding: 30px;
+  background-color: #00f7ff;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ffb485;
+}
+
 body {
   background-image: url(Bilder/Background-Space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -21,4 +46,5 @@ h1 {
 
 p {
   color: white;
+  text-align: center;
 }
